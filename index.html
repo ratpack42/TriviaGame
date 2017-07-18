@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Trivia Game</title>
+</head>
+<body>
+
+	<h1 class= "text-center">Random Trivia Game</h1>
+	
+	<div class ="text-center">
+	<iframe src="https://giphy.com/embed/ParJNNK3YSxs4" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/trivia-ParJNNK3YSxs4"></a></p>
+	</div>
+
+	<div class = "container">
+
+		
+		<div id="display">120 Seconds</div>
+
+		<h3 id="triviaQuestion"></h3>
+		<div id="multipleChoice">
+			<div class="list-group choices">
+				<a id="a" class="list-group-item answerChoice"></a>
+				<a id="b" class="list-group-item answerChoice"></a>
+				<a id="c" class="list-group-item answerChoice"></a>
+			</div>
+		</div>
+		<div id="results" class="panel panel-default results">
+			<div class="panel-heading">Your Trivia Results</div>
+			<div class="panel-body">
+				<ul class="list-group">
+    				<li id="correct"></li>
+					<li id="wrong"></li>
+					<li id="unanswered"></li>
+				</ul>
+				</div>		
+		</div>
+	</div>
+
+
+	<div class="form-actions">
+		<center>
+			<button type="button" class="btn btn-primary btn-lg" id="start">Start</button>
+		</center>
+	</div>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

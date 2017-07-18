@@ -1,0 +1,22 @@
+
+body {
+	background-color: #F0FFFF;
+}
+
+h1 {
+	text-shadow: 2px 2px;
+}
+
+#display{
+	font-size: large;
+}
+
+.list-group-item {
+	font-size: large;
+	font-weight: bold;
+}
+
+#results {
+	background-color: #FFFFE0;
+	font-size: large;
+}
